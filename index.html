@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Little Fox Animal Hospital 常用系統入口">
+  <title>Little Fox｜快速入口</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="container">
+    <header>
+      <div class="logo" aria-hidden="true">LF</div>
+      <p class="eyebrow">LITTLE FOX ANIMAL HOSPITAL</p>
+      <h1>快速入口</h1>
+      <p class="subtitle">選擇要前往的系統</p>
+    </header>
+
+    <div class="panels">
+      <section class="panel" aria-labelledby="frequentTitle">
+        <div class="panel-heading">
+          <span class="panel-icon" aria-hidden="true">↗</span>
+          <div>
+            <h2 id="frequentTitle">常用入口</h2>
+          </div>
+        </div>
+
+        <nav class="link-list three-columns" aria-label="常用入口">
+          <a class="link-button" href="https://service.drvet.info/" target="_blank" rel="noopener noreferrer">
+            <span class="number">01</span>
+            <span class="label">Drvet</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+
+          <a class="link-button" href="https://littlefoxah.pos.bonsale.info/pos" target="_blank" rel="noopener noreferrer">
+            <span class="number">02</span>
+            <span class="label">POS</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link-button" href="https://www.facebook.com/littlefoxhospital/" target="_blank" rel="noopener noreferrer">
+            <span class="number">03</span>
+            <span class="label">Facebook</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </section>
+
+      <section class="panel" aria-labelledby="notebookTitle">
+        <div class="panel-heading">
+          <span class="panel-icon" aria-hidden="true">N</span>
+          <div>
+            <h2 id="notebookTitle">Notebook</h2>
+          </div>
+        </div>
+
+        <nav class="link-list three-columns" aria-label="Notebook">
+          <a class="link-button" href="https://docs.google.com/document/d/1dVo1CWnC4vsVpxu2SEoXvTqGRJYbm65Q8LLa8Bjscmg/edit?tab=t.0#heading=h.igcuihtyixeb" target="_blank" rel="noopener noreferrer">
+            <span class="number">01</span>
+            <span class="label">公開資訊</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link-button" href="https://docs.google.com/document/d/1Tvm-ZYyvTxevFRUVpNyP5k6TcWVz_1OM3WmM5HcHR1U/edit?tab=t.0" target="_blank" rel="noopener noreferrer">
+            <span class="number">02</span>
+            <span class="label">香芸</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+          <a class="link-button" href="https://docs.google.com/document/d/1mY7sHCJUIMgR9hOpZcdIiElQvQMeQr8Z9sjGz3_6aWY/edit?tab=t.0" target="_blank" rel="noopener noreferrer">
+            <span class="number">03</span>
+            <span class="label">蕭醫師</span>
+            <span class="arrow" aria-hidden="true">↗</span>
+          </a>
+        </nav>
+      </section>
+
+      <section class="panel locked-panel" id="directorPanel" aria-labelledby="directorTitle">
+        <div class="panel-heading">
+          <span class="panel-icon lock-icon" aria-hidden="true">●</span>
+          <div>
+            <h2 id="directorTitle">院長室</h2>
+          </div>
+          <form class="unlock-form" id="unlockForm">
+            <label class="password-field" for="directorPassword">
+              <span class="visually-hidden">院長室密碼</span>
+              <input id="directorPassword" type="password" inputmode="numeric" autocomplete="current-password" placeholder="請輸入密碼" required>
+            </label>
+            <button class="unlock-button" type="submit">解鎖並展開</button>
+            <p class="password-message" id="passwordMessage" aria-live="polite"></p>
+          </form>
+          <span class="lock-status" id="lockStatus">已上鎖</span>
+        </div>
+
+        <div class="protected-content" id="directorContent" hidden>
+          <nav class="link-list two-columns" aria-label="院長室">
+            <a class="link-button" href="https://docs.google.com/spreadsheets/d/1zyClS1o2MlE1CKWgWyQfeBGDy7cAzfK7jrMRkwrGKeg/edit?gid=843312939#gid=843312939" target="_blank" rel="noopener noreferrer">
+              <span class="number">01</span>
+              <span class="label">帳本</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+            <a class="link-button" href="https://docs.google.com/document/d/1ShgzH5AZRkw5IVB3OeQaQwzUJdr3JaMiGtpqy-_YICk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+              <span class="number">02</span>
+              <span class="label">公司資料</span>
+              <span class="arrow" aria-hidden="true">↗</span>
+            </a>
+          </nav>
+        </div>
+      </section>
+    </div>
+
+    <footer>點擊按鍵後將於新分頁開啟</footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
