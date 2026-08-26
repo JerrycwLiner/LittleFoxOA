@@ -164,7 +164,7 @@ h1 { margin: 0; font-size: clamp(36px, 8vw, 54px); letter-spacing: -0.05em; }
 
 .link-button {
   display: grid;
-  grid-template-columns: 46px 1fr 38px;
+  grid-template-columns: 1fr 38px;
   gap: 14px;
   align-items: center;
   min-height: 86px;
@@ -186,9 +186,10 @@ h1 { margin: 0; font-size: clamp(36px, 8vw, 54px); letter-spacing: -0.05em; }
   outline: none;
 }
 
-.number { color: var(--accent); font-size: 12px; font-weight: 800; letter-spacing: 0.08em; }
 .label { font-size: 20px; font-weight: 700; }
 .arrow { color: var(--accent); font-size: 23px; text-align: right; transition: transform 180ms ease; }
+.google-mark { color: #4285f4; font-size: 22px; font-weight: 800; text-align: right; }
+.excel-mark { color: #217346; font-size: 22px; font-weight: 800; text-align: right; }
 .link-button:hover .arrow { transform: translate(3px, -3px); }
 
 footer { padding-top: 28px; color: var(--muted); font-size: 12px; text-align: center; }
